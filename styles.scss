@@ -13,6 +13,10 @@ $terciary: #3C3C3B;
     background-color: $terciary;
 }
 
+.bg-primary {
+    background-color: $primary !important;
+}
+
 body{
     background: rgb(214,214,214);
     background: linear-gradient(270deg, rgba(214,214,214,0.5) 50%, rgba(255,255,255,1) 100%);
@@ -50,6 +54,10 @@ $font-family-asapCondensed: 'Asap Condensed', sans-serif;
 
 .logo-escudo {
     width: 65px;
+}
+
+.border-secondary {
+    border-color: $secondary !important;
 }
 
 h1 {
@@ -90,6 +98,36 @@ button {
     color: $primary;
 }
 
+.iconos {
+    width: 50px;
+}
+
+.titulos-protocolo {
+    margin-top: -1.2rem;
+
+}
+
+.iconos-protocolo {
+    height: 70px;
+}
+
+.texto-protocolo {
+    font-size: .8rem;
+}
+
+.text-indent {
+    text-indent: 20px;
+}
+
+.lista-actualizacion > li::marker {
+    color: $secondary;
+}
+
+.letter-spacing-005 {
+    letter-spacing: 0.05rem;
+}
+
+
 @media screen and (max-width: 991px) {
     
     body{
@@ -98,11 +136,11 @@ button {
     }
 
     .logo-escudo {
-        width: 30px;
+        width: 40px;
     }   
 
     h1 {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     .w-100-xs {
@@ -111,6 +149,10 @@ button {
 
     .accordion-button {
         font-size: 1.2rem;
+    }
+
+    .iconos {
+        width: 40px;
     }
 
 }

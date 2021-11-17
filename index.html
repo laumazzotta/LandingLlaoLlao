@@ -24,7 +24,8 @@
 </head>
 <body class="w-100 p-0 m-0">
     <header class="w-100 position-relative">
-        <img class="w-100" src="assets/img_bg.jpg" alt="llaollao">
+        <img class="w-100 d-none d-md-block" src="assets/img_bg.jpg" alt="llaollao">
+        <img class="w-100 d-block d-md-none" src="assets/img_bg_mobile.jpg" alt="llaollao">
         <div class="position-absolute top-50 start-50 translate-middle w-100">
             <img class="d-block mx-auto mb-3 mb-lg-5 logo-escudo" src="assets/logo_escudo.svg" alt="llaollao">
             <h1 class="font-playfair text-white text-center fw-bold">ACERCA DE LLAO LLAO RESORT, GOLF & SPA</h1>
@@ -40,8 +41,52 @@
                         INFORMACIÓN GENERAL
                         </button>
                     </h2>
-                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne">
+                        <div class="accordion-body container">
+                            <div class="row row-cols-2 row-cols-lg-3 text-center">
+                                <div class="col mt-3">
+                                    <img src="assets/icon_checkin.svg" class="pb-2 iconos" alt="llaollao">
+                                    <p>Check in 15 hs.</p>
+                                </div>
+                                <div class="col mt-3">
+                                    <img src="assets/icon_checkout.svg" class="pb-2 iconos" alt="llaollao">
+                                    <p>Check out hasta las 11:30 hs.</p>
+                                </div>
+                                <div class="col mt-3">
+                                    <img src="assets/icon_idioma.svg" class="pb-2 iconos" alt="llaollao">
+                                    <p>Idioma: Español</p>
+                                </div>
+                                <div class="col mt-3">
+                                    <img src="assets/icon_moneda.svg" class="pb-2 iconos" alt="llaollao">
+                                    <p>Moneda: Peso argentino.</p>
+                                </div>
+                                <div class="col mt-3">
+                                    <img src="assets/icon_volt.svg" class="pb-2 iconos" alt="llaollao">
+                                    <p>Voltaje: 220 V.</p>
+                                </div>
+                                <div class="col mt-3">
+                                    <img src="assets/icon_tax.svg" class="pb-2 iconos" alt="llaollao">
+                                    <p>Exención del 21% de IVA al turista extranjero.</p>
+                                </div>
+                                <div class="row-cols-1 col-lg-4 mt-4 mx-auto">
+                                    <img src="assets/icon_clima.svg" class="pb-2 iconos" alt="llaollao">
+                                    <p class="mb-2">Clima (temperaturas aproximadas)</p>
+                                </div>
+                                <div class="row-cols-1 col-8 mx-auto w-100-xs mt-lg-4">
+                                    <p class="mb-0 text-center text-lg-start"><strong>Verano:</strong> <i>Máx. 29º C / Mín. 9º C (diciembre/marzo).</i></p>
+                                    <p class="mb-0 text-center text-lg-start"><strong>Otoño:</strong> <i>Máx. 13º C / Mín. 4º C (marzo/junio).</i></p>
+                                    <p class="mb-0 text-center text-lg-start"><strong>Invierno:</strong> <i>Máx. 8º C / Mín. -10º C (junio/septiembre).</i></p>
+                                    <p class="mb-0 text-center text-lg-start"><strong>Primavera:</strong> <i>Máx. 20º C / Mín. 7º C (septiembre/diciembre).</i></p>
+                                </div>
+                                <div class="row-cols-1 col-lg-4 mt-4 mx-auto">
+                                    <img src="assets/icon_visa.svg" class="pb-2 iconos" alt="llaollao">
+                                    <p class="mb-2">Visa</p>
+                                </div>
+                                <div class="row-cols-1 col-8 mx-auto w-100-xs mt-lg-4">
+                                    <p class="mb-0 text-center text-lg-start"><i>Los ciudadanos de algunos países requieren VISA (consultar al Consulado o a su agente de viajes). Los ciudadanos de países limítrofes sólo necesitan documento de identidad del país de origen.</i></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 
@@ -51,8 +96,28 @@
                         UBICACIÓN & DISTANCIAS
                         </button>
                     </h2>
-                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo">
+                        <div class="accordion-body">
+                            <div>
+                                <p>Se encuentra ubicado en plena región de lagos, dentro del Parque Nacional Nahuel Huapi, en el corazón de
+                                    la Patagonia Argentina, enmarcado por los cerros López, Capilla y Tronador. Está a 2 horas de vuelo de la
+                                    Ciudad de Buenos Aires y a sólo 500 mts de Puerto Pañuelo, punto de partida y llegada del Cruce de Lagos y
+                                    de todas las excursiones lacustres.
+                                    Este lugar es único en el mundo y constituye un verdadero paraíso ecológico, con aguas cristalinas y aire de
+                                    extraordinaria pureza. Mantiene un exquisito equilibrio con el impresionante marco natural de la zona,
+                                    convirtiéndose en un atractivo que no se puede dejar de visitar en la Argentina.</p>
+                            </div>
+                            <div>
+                                <p class="fw-bold">Distancias:</p>
+                                <ul>
+                                    <li>1.600 Km. de la Ciudad de Buenos Aires.</li>
+                                    <li>35 Km. del Aeropuerto de San Carlos de Bariloche.</li>
+                                    <li>25 Km. del centro de la Ciudad de Bariloche.</li>
+                                    <li>20 Km. del Cerro Catedral (centro de ski).</li>
+                                    <li>500 Mts. de Puerto Pañuelo, llegada y salida de Cruce de Lagos.</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 
@@ -62,30 +127,63 @@
                         HABITACIONES
                         </button>
                     </h2>
-                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree">
+                        <div class="accordion-body">
+                            <h3>Ala Bustillo</h3>
+                            <p class="mb-4">Nuestro edificio emblemático fue inaugurado en 1940 por el Arq. Alejandro Bustillo. El encanto de su herencia
+                                histórica se vive en cada uno de sus ambientes donde se combina la calidez de un hotel de montaña único
+                                rodeado por lagos e imponentes picos nevados con los servicios de un Resort cinco estrellas. Este ala cuenta
+                                con 162 habitaciones con vista a los lagos Moreno, Nahuel Huapi y Cerro López y 1 cabaña.
+                            </p>
+                            <h3>Ala Moreno</h3>
+                            <p>
+                                Es la combinación perfecta del clásico estilo Llao Llao y el diseño contemporáneo Patagónico. Fue
+                                construida en el año 2007 y está unida al Ala Bustillo por un puente panorámico. Posee 43 habitaciones:
+                                Studios y Suites de Lujo, con imponentes vistas al Lago Moreno y al Cerro Tronador. Todas cuentan con
+                                balcón terraza al Lago Moreno, jacuzzi y aire acondicionado.
+                            </p>
+                        </div>
                     </div>
                 </div>
                 
                 <div class="accordion-item my-2">
                     <h2 class="accordion-header" id="flush-headingFour">
-                        <button class="accordion-button collapsed fw-bold text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
-                        SERVICIOS | INCLUIDOS EN LA TARIFA Y/O EL RESORT FEE
+                        <button class="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <p><strong>SERVICIOS </strong> | INCLUIDOS EN LA TARIFA Y/O EL RESORT FEE</p>
                         </button>
                     </h2>
-                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Desayuno Llao Llao.</li>
+                                <li>Happy Hour todas las tardes.</li>
+                                <li>Health Club & Fitness Center.</li>
+                                <li>Actividades recreativas.</li>
+                                <li>Actividades para niños.</li>
+                                <li>Acceso al exclusivo Refugio Llao Llao ubicado en la base
+                                    del Cerro Catedral, durante la temporada invernal.</li>
+                                <li>WIFI hasta 8 MB.</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 
                 <div class="accordion-item my-2">
                     <h2 class="accordion-header" id="flush-headingFive">
-                        <button class="accordion-button collapsed fw-bold text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseThree">
-                        OTROS SERVICIOS | CON CARGO ADICIONAL
+                        <button class="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <p><strong>OTROS SERVICIOS </strong> | CON CARGO ADICIONAL</p>
                         </button>
                     </h2>
-                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingThree">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Tratamientos de Spa.</li>
+                                <li>Golf.</li>
+                                <li>Centro de belleza.</li>
+                                <li>Alquiler de automóviles.</li>
+                                <li>Oficina de Tours & Excursiones.</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 
@@ -95,30 +193,168 @@
                         GASTRONOMÍA
                         </button>
                     </h2>
-                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix">
+                        <div class="accordion-body">
+                            <h3>Restaurant Argentino</h3>
+                            <p class="mb-4">Ofrece una variada selección de cortes de carnes y pescados a las brasas, verduras grilladas y pastas caseras.</p>
+                            <h3>Restaurant Llao Llao Bistró</h3>
+                            <p class="mb-4">Decorado en madera y con hermosas vistas, es un ambiente cálido y relajado ideal para disfrutar. Se
+                                sirven platos y postres regionales exclusivos con ingredientes típicos de la Patagonia, especialmente
+                                seleccionados.</p>
+                            <h3>Lobby Bar</h3>
+                            <p class="mb-4">Ubicado en la planta principal del Resort, es el lugar de encuentro por excelencia: ofrece opciones de
+                                almuerzo, merienda y cena, y allí se pueden disfrutar una gran variedad de cocktails, vinos, cervezas
+                                regionales o una copa de champagne, los clásicos happy hours por las tardes y shows musicales
+                                nocturnos.</p>
+                            <h3>Winter Garden</h3>
+                            <p class="mb-4">En un ambiente vidriado que muestra la belleza del paisaje patagónico, durante los mediodías se puede
+                                disfrutar del almuerzo. Por la tarde, nada mejor que deleitarse con nuestro tradicional “Té Llao Llao”.</p>
+                            <h3>Espacio Lago Moreno</h3>
+                            <p class="mb-4">Junto a una de las mejores vistas del Lago Moreno es posible disfrutar de un menú de tapas y
+                                sandwichería o de una cerveza artesanal y patagónica, elaborada localmente y con lúpulo de El Bolsón.
+                                Abierto únicamente en temporada de alta ocupación.</p>
+                            <h3>Cava Llao Llao</h3>
+                            <p class="mb-4">Con una selección de vinos de diferentes zonas vitivinícolas del país, nuestro Wine Manager
+                                recomendará las mejores opciones para maridar los exclusivos platos que aquí se ofrecen.</p>
+                            <h3>Bar Piscina</h3>
+                            <p class="mb-4">La piscina indoor cuenta con el ingrediente perfecto para la relajación absoluta: el jacuzzi y el bar para
+                                deleitar a nuestros huéspedes con el servicio de bebidas, sin tener que perder un instante de relax.</p>
+                            <h3>Club House</h3>
+                            <p class="mb-4">El Club House ofrece un lugar de privilegio para hacer una pausa luego de una intensa jornada de golf y
+                                disfrutar exquisitos sandwiches, blends de té, tortas y dulces caseros.</p>
+                            <h3>Lounge Cerro Catedral</h3>
+                            <p class="mb-4">Llao Llao ofrece durante la temporada de invierno, un servicio exclusivo para los amantes del ski, en la
+                                base del Cerro Catedral. Este espacio cuenta con un Snack Bar, Cafetería en un área calefaccionada
+                                ideal para el relax.</p>
+                            <h3 class="gold">ROOM SERVICE</h3>
+                            <p class="mb-4">Si decide permanecer en la privacidad de su habitación, el servicio de Room Service está a su
+                                disposición para atenderlo.</p>
+                        </div>
                     </div>
                 </div>
                 
                 <div class="accordion-item my-2">
                     <h2 class="accordion-header" id="flush-headingSeven">
-                        <button class="accordion-button collapsed fw-bold text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseThree">
-                        ACTIVIDADES RECREATIVAS | INCLUIDAS EN LA TARIFA Y/O EL RESORT FEE
+                        <button class="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <p><strong>ACTIVIDADES RECREATIVAS </strong> | INCLUIDAS EN LA TARIFA Y/O EL RESORT FEE</p>
                         </button>
                     </h2>
-                    <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                    <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven">
+                        <div class="accordion-body">
+                            <div class="container">
+                                <div class="row"><h3>Actividades indoor</h3>
+                                    <div class="col-md-6">
+                                        <ul class="mb-0">
+                                            <li>Health Club & Fitness Center</li>
+                                            <li>Piscina climatizada in-out</li>
+                                            <li>Jacuzzi</li>
+                                            <li>Sauna</li>
+                                            <li>Sala de Aerobics</li>
+                                            <li>Sala de Aparatos</li>
+                                            <li>Sala de fitness virtual</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul>
+                                            <li>Sala de Juegos</li>
+                                            <li>Sala de lectura</li>
+                                            <li>Sala de Bridge</li>
+                                            <li>TV room</li>
+                                            <li>Shows en vivo</li>
+                                            <li>Actividades para niños</li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                                <div class="row mt-4"><h3>Actividades outdoor</h3>
+                                    <div class="col-md-6">
+                                        <ul class="mb-0 mb-md-3">
+                                            <li>Piscina climatizada in-out</li>
+                                            <li>Mountain Bikes</li>
+                                            <li>Caminatas (con guía)</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul>
+                                            <li>Arquería</li>
+                                            <li>Deportes náuticos en la Marina del Resort durante la temporada de verano.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 
                 <div class="accordion-item my-2">
                     <h2 class="accordion-header" id="flush-headingEight">
-                        <button class="accordion-button collapsed fw-bold text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseThree">
-                        ACTIVIDADES | CON CARGO ADICIONAL
+                        <button class="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <p><strong> ACTIVIDADES </strong> | CON CARGO ADICIONAL</p>
                         </button>
                     </h2>
-                    <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                    <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight">
+                        <div class="accordion-body">
+                            <div class="container">
+                                <div class="row mb-4">
+                                    <div class="col-md-6">
+                                        <ul class="mb-0">
+                                            <li>Paseos en barco</li>
+                                            <li>Salidas de Pesca</li>
+                                            <li>Rafting</li>
+                                            <li>Cabalgatas</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul>
+                                            <li>Canopy</li>
+                                            <li>4x4 en la estepa</li>
+                                            <li>Avistaje de aves</li>
+                                            <li>Excursiones tradicionales lacustres y terrestres</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row"><h3 class="gold mb-4">SPA</h3></div>
+                                <div class="row"><h4>Tratamientos</h4>
+                                    <div class="col-md-6">
+                                        <ul class="mb-0">
+                                            <li>Faciales</li>
+                                            <li>Regeneración Celular</li>
+                                            <li>Desintoxicantes y Revitalizantes</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul>
+                                            <li>Puesta en Forma</li>
+                                            <li>Relax</li>
+                                            <li>Hidroterapia</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row mb-4"><h4>Planes especiales</h4>
+                                    <div class="col-md-6">
+                                        <ul class="mb-0">
+                                            <li>Relax en la Montaña</li>
+                                            <li>Puesta en Forma</li>
+                                            <li>Spa Para Deportistas</li>
+                                            <li>Día de Belleza</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul>
+                                            <li>Spa Para Futuras Mamás</li>
+                                            <li>Programa 2 Días / 4 Días / 6 Días</li>
+                                            <li>Programa Para Hombres</li>
+                                            <li>Programa Novias Llao Llao</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <h3 class="gold mb-4">GOLF</h3>
+                                    <p>Nuestro campo de golf posee 18 hoyos - par 70, y cuenta con un Club House y Pro Shop, alquiler de
+                                        palos, alquiler de carros manuales y eléctricos en temporada alta y clases a cargo de nuestro profesor.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 
@@ -128,8 +364,139 @@
                         <span style="color: #00263A;">PROTOCOLO COVID-19</span>
                         </button>
                     </h2>
-                    <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                    <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine">
+                        <div class="accordion-body">
+                            <p class="mb-5">Continuando con nuestro compromiso con la calidad y la excelencia, desde Llao Llao Resort, Golf & Spa hemos elaborado un protocolo que implica medidas en las áreas de  sanidad, seguridad e higiene, que nos permitirá recibir a nuestros huéspedes, colaboradores y proveedores de manera segura.
+                                <br>Este protocolo sigue los lineamientos establecidos por la OMS, la OMT, la AHT, el Ministerio de Salud de la Nación y las autoridades locales.
+                                El protocolo elaborado contempla desde aspectos de mejoras edilicias e inversiones en tecnología, hasta un plan de concientización y capacitación intensiva a todo nuestro personal.
+                            </p>
+                            <div class="container">
+                                <div class="row text-center border border-secondary justify-content-center mb-5">
+                                    <h3 class="font-playfairSC bg-white w-auto mx-auto titulos-protocolo">Sanitización</h3>
+                                    <div class="row row-cols-1 row-cols-lg-4 text-center">
+                                        <div class="col mt-3">
+                                            <img src="assets/icon_alfombra.svg" class="pb-2 iconos-protocolo" alt="protocolo">
+                                            <p class="fw-light lh-sm texto-protocolo">Colocación de alfombras sanitizantes en accesos (huéspedes, proveedores, personal, equipaje).</p>
+                                        </div>
+                                        <div class="col mt-3">
+                                            <img src="assets/icon_sanit_llaves.svg" class="pb-2 iconos-protocolo" alt="protocolo">
+                                            <p class="fw-light lh-sm texto-protocolo">Proceso de sanitización especial de llaves de habitaciones, lapiceras, terminales de pago y elementos de uso común.</p>
+                                        </div>
+                                        <div class="col mt-3">
+                                            <img src="assets/icon_manos.svg" class="pb-2 iconos-protocolo" alt="protocolo">
+                                            <p class="fw-light lh-sm texto-protocolo">Estaciones sanitizantes en áreas públicas.</p>
+                                        </div>
+                                        <div class="col mt-3">
+                                            <img src="assets/icon_residuos.svg" class="pb-2 iconos-protocolo" alt="protocolo">
+                                            <p class="fw-light lh-sm texto-protocolo">Refuerzo de medidas de seguridad e higiene y desinfección en el tratamiento diferenciado de residuos.</p>
+                                        </div>
+                                    </div>
+                                    <div class="row row-cols-1 row-cols-lg-3 text-center">
+                                        <div class="col mt-3">
+                                            <img src="assets/icon_limpieza.svg" class="pb-2 iconos-protocolo" alt="protocolo">
+                                            <p class="fw-light lh-sm texto-protocolo">Limpieza de habitaciones, áreas públicas, ascensores y todos los espacios del resort y de personal (vestuarios, áreas internas) y sectores de proveedores, con sanitizantes de nivel hospitalario.</p>
+                                        </div>
+                                        <div class="col mt-3">
+                                            <img src="assets/icon_transp.svg" class="pb-2 iconos-protocolo" alt="protocolo">
+                                            <p class="fw-light lh-sm texto-protocolo">Sanitización y aplicación de medidas de distanciamiento social en el servicio de camionetas para el traslado de huéspedes.</p>
+                                        </div>
+                                        <div class="col mt-3">
+                                            <img src="assets/icon_sanitizantes.svg" class="pb-2 iconos-protocolo" alt="protocolo">
+                                            <p class="fw-light lh-sm texto-protocolo">Provisión de elementos sanitizantes en habitaciones y lugares de acceso de huéspedes, como ascensores, recepciones, restaurantes, gimnasio, y también en áreas de empleados y proveedores.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row text-center border border-secondary justify-content-center mb-5">
+                                    <h3 class="font-playfairSC bg-white w-auto mx-auto titulos-protocolo">Procesos</h3>
+                                    <div class="row row-cols-2 row-cols-lg-4 text-center">
+                                        <div class="col mt-3">
+                                            <img src="assets/icon_procesos1.svg" class="pb-2 iconos-protocolo" alt="protocolo">
+                                            <p class="fw-light lh-sm texto-protocolo">Documentación de todos los procesos de control y prevención para huéspedes, proveedores y empleados.</p>
+                                        </div>
+                                        <div class="col mt-3">
+                                            <img src="assets/icon_procesos2.svg" class="pb-2 iconos-protocolo" alt="protocolo">
+                                            <p class="fw-light lh-sm texto-protocolo">Establecimiento de un plan de contingencia para casos sospechosos o detectados en el Resort.</p>
+                                        </div>
+                                        <div class="col mt-3">
+                                            <img src="assets/icon_procesos3.svg" class="pb-2 iconos-protocolo" alt="protocolo">
+                                            <p class="fw-light lh-sm texto-protocolo">Certificación de proveedores, manejo de material y mercadería.</p>
+                                        </div>
+                                        <div class="col mt-3">
+                                            <img src="assets/icon_procesos4.svg" class="pb-2 iconos-protocolo" alt="protocolo">
+                                            <p class="fw-light lh-sm texto-protocolo">Capacitación y asesoramiento profesional al personal de la mano de especialistas en la materia.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row row-cols-1 row-cols-lg-3">
+                                    <div class="col-lg-5 text-center border border-secondary justify-content-center mb-5">
+                                        <h3 class="font-playfairSC bg-white w-auto mx-auto titulos-protocolo">Cuidado Personal</h3>
+                                        <div class="row row-cols-2 text-center">
+                                            <div class="col mt-3">
+                                                <img src="assets/icon_cuidado1.svg" class="pb-2 iconos-protocolo" alt="protocolo">
+                                                <p class="fw-light lh-sm texto-protocolo">Kits personales de desinfección para todos nuestros huéspedes.</p>
+                                            </div>
+                                            <div class="col mt-3">
+                                                <img src="assets/icon_cuidado2.svg" class="pb-2 iconos-protocolo" alt="protocolo">
+                                                <p class="fw-light lh-sm texto-protocolo">Control de temperatura antes del ingreso al Resort.</p>
+                                            </div>
+                                            <div class="col mt-3">
+                                                <img src="assets/icon_cuidado3.svg" class="pb-2 iconos-protocolo" alt="protocolo">
+                                                <p class="fw-light lh-sm texto-protocolo">Uso obligatorio de barbijo.</p>
+                                            </div>
+                                            <div class="col mt-3">
+                                                <img src="assets/icon_cuidado4.svg" class="pb-2 iconos-protocolo" alt="protocolo">
+                                                <p class="fw-light lh-sm texto-protocolo">Equipos de protección personal para nuestros colaboradores.</p>
+                                            </div>
+                                            <div class="col mt-3">
+                                                <img src="assets/icon_cuidado5.svg" class="pb-2 iconos-protocolo" alt="protocolo">
+                                                <p class="fw-light lh-sm texto-protocolo">Provisión de amenities de baño individuales en habitaciones y baños públicos, y vestuarios del área de spa y gimnasio.</p>
+                                            </div>
+                                            <div class="col mt-3">
+                                                <img src="assets/icon_cuidado6.svg" class="pb-2 iconos-protocolo" alt="protocolo">
+                                                <p class="fw-light lh-sm texto-protocolo">Distanciamiento físico obligatorio y readecuación de espacios y mobiliario asegurando la reducción de capacidad de áreas comunes.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 text-center border border-secondary justify-content-center mx-lg-4 mb-5">
+                                        <h3 class="font-playfairSC bg-white w-auto mx-auto titulos-protocolo">Digitalización</h3>
+                                        <div class="row row-cols-1 text-center">
+                                            <div class="col mt-3">
+                                                <img src="assets/icon_digit1.svg" class="pb-2 iconos-protocolo" alt="protocolo">
+                                                <p class="fw-light lh-sm texto-protocolo">Digitalización del proceso de check in y check out.</p>
+                                            </div>
+                                            <div class="col mt-3">
+                                                <img src="assets/icon_digit2.svg" class="pb-2 iconos-protocolo" alt="protocolo">
+                                                <p class="fw-light lh-sm texto-protocolo">Información en medios digitales en áreas públicas y habitaciones del Resort sobre las medidas y prevenciones.</p>
+                                            </div>
+                                            <div class="col mt-3">
+                                                <img src="assets/icon_digit3.svg" class="pb-2 iconos-protocolo" alt="protocolo">
+                                                <p class="fw-light lh-sm texto-protocolo">Digitalización de información del Resort y sus servicios (restaurants, gimnasio y otros).</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 text-center border border-secondary justify-content-center mb-5">
+                                        <h3 class="font-playfairSC bg-white w-auto mx-auto titulos-protocolo">Protocolos para eventos</h3>
+                                        <div class="row row-cols-1 text-center">
+                                            <div class="col mt-3">
+                                                <img src="assets/icon_eventos1.svg" class="pb-2 iconos-protocolo" alt="protocolo">
+                                                <p class="fw-light lh-sm texto-protocolo">Aforo de salones al 50% de capacidad original (reuniones y servicios de gastronomía).</p>
+                                            </div>
+                                            <div class="col mt-3">
+                                                <img src="assets/icon_eventos2.svg" class="pb-2 iconos-protocolo" alt="protocolo">
+                                                <p class="fw-light lh-sm texto-protocolo">Servicios de buffet asistido.</p>
+                                            </div>
+                                            <div class="col mt-3">
+                                                <img src="assets/icon_eventos3.svg" class="pb-2 iconos-protocolo" alt="protocolo">
+                                                <p class="fw-light lh-sm texto-protocolo">Actividades del Resort con reserva previa y aforo correspondiente.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
                 
@@ -139,19 +506,65 @@
                             <span style="color: #00263A;">POLÍTICA DE CANCELACIÓN ANTE LA PANDEMIA COVID-19</span>
                         </button>
                     </h2>
-                    <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                    <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen">
+                        <div class="accordion-body">
+                            <p>Las reservas de estadías a partir del 1 de abril de 2020 quedan desde el momento de su confirmación en condición TENTATIVO y confirmadas en forma CONDICIONAL ya que se encuentran al mismo tiempo sujetas a modificaciones y/o cancelaciones como consecuencia de nuevas regulaciones o disposiciones que puedan ser emitidas por el Gobierno Nacional, Provincial o Municipal Argentino, considerando que las mismas podrían afectar la prestación de los servicios acordados. De ser necesario modificar o cancelar su reserva se lo estaremos informando con la mayor antelación posible por vía telefónica, considerando el especial escenario de eventual fuerza mayor reinante por la pandemia COVID-19. Al mismo tiempo y de conformidad con la declaración de Emergencia Sanitaria Mundial existente, el Hotel se vio obligado a restringir algunos de sus servicios, por lo que le solicitamos a usted que si desea conocer cuales son los servicios confirmados a los cuales podrá acceder y que se encuentren operativos durante su estadía, por favor se contacte con nosotros con un mínimo de 72hs previo a su arribo, para que se lo podamos informar.</p>
+                        </div>
                     </div>
                 </div>
                 
                 <div class="accordion-item my-2">
                     <h2 class="accordion-header" id="flush-headingEleven">
-                        <button class="accordion-button collapsed fw-bold text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseThree">
-                        ACTUALIZACIÓN DE LOS SERVICIOS ANTE EL CONTEXTO COVID-19
+                        <button class="accordion-button collapsed fw-bold text-uppercase bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <img src="assets/icon_megafono.svg" class="iconos me-2" alt="llaollao`">ACTUALIZACIÓN DE LOS SERVICIOS ANTE EL CONTEXTO COVID-19
                         </button>
                     </h2>
-                    <div id="flush-collapseEleven" class="accordion-collapse collapse" aria-labelledby="flush-headingEleven" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                    <div id="flush-collapseEleven" class="accordion-collapse collapse" aria-labelledby="flush-headingEleven">
+                        <div class="accordion-body bg-primary text-white p-lg-5">
+                            <div class="mb-4">
+                                <h4 class="mb-0">SPA, SAUNA Y VESTUARIOS DE PISCINA</h4>
+                                <p class="fs-5">Por el momento estos servicios no se encuentran disponibles, y su fecha de apertura es a confirmar.</p>
+                            </div>
+                            <div class="mb-4">
+                                <h4 class="mb-0">AGUAS DE CORTESÍA</h4>
+                                <p class="fs-5">Llao Llao en los últimos años ha tomado como una prioridad su compromiso con el cuidado del medio ambiente. En ese sentido, y con el objetivo de reducir los elementos plásticos de un solo uso, desde inicios de este año se han reemplazado las botellas plásticas de agua de cortesía en habitaciones por la instalación de seis estaciones de llenado de agua potable en diferentes áreas públicas del Resort, a su disposición las 24 horas del día.</p>
+                            </div>
+                            <div class="mb-4">
+                                <h4 class="mb-0 text-uppercase">Actividades para niños</h4>
+                                <p class="fs-5">Las actividades recreativas para niños, las cuales se estuvieron desarrollando al aire libre durante los meses de verano, no se encontrarán disponibles hasta el receso vacacional o la temporada alta.</p>
+                            </div>
+                            <div class="mb-4">
+                                <h4 class="mb-0 text-uppercase">SALA DE JUEGOS</h4>
+                                <p class="fs-5">Por el momento este servicio no se encuentra disponible, y la fecha de apertura es a confirmar.</p>
+                            </div>
+                            <div class="mb-4">
+                                <h4 class="mb-0">WEB APP app.llaollao.com</h4>
+                                <p class="fs-5">El Resort cuenta con una aplicación web desde la cual el huésped podrá:</p>
+                                <p class="fst-italic fs-5 fw-bold text-indent mb-0 letter-spacing-005">Realizar el check-in en forma online.</p>
+                                <p class="fst-italic fs-5 fw-bold text-indent letter-spacing-005">Reservar sus turnos para los siguientes servicios:</p>
+                                <div class="row row-cols-1 row-cols-lg-2">
+                                    <div class="col">
+                                        <ul class="mb-0 lista-actualizacion letter-spacing-005 fs-5">
+                                            <li class="mb-3"><strong>Piscina:</strong> Turnos de 90 minutos (Sujetos a modificación sin previo aviso y cupos limitados).</li>
+                                            <li class="mb-3"><strong>Actividades recreativas y gimnasio: </strong>Cupos limitados.</li>
+                                            <li class="mb-3"><strong>Recreación infantil (Disponible sólo en alta temporada): </strong> Cupos limitados.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <ul class="lista-actualizacion letter-spacing-005 fs-5">
+                                            <li class="mb-3"><strong>Spa: </strong>A confirmar fecha de apertura. Al día de la fecha este servicio no se encuentra disponible.</li>
+                                            <li class="mb-3"><strong>Reservas de restaurantes: </strong>
+                                                <div class="row my-2">
+                                                    <img src="assets/icon_signoexc.svg" height="60px" alt="llaollao" class="me-2 col-auto">
+                                                    <p class="mb-0 col fst-italic fw-bold">Alguno de los restaurantes podría no estar disponible al momento de su estadía. Por favor consulte la disponibilidad de los mismos.</p>
+                                                </div>
+                                                Cupos limitados por horario.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
                     </div>
                 </div>
                 
