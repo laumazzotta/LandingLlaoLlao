@@ -54,6 +54,18 @@ h1 {
   letter-spacing: 0.15rem;
 }
 
+a {
+  color: white;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+a:hover {
+  color: #7a7979;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
 .accordion-button {
   color: #86704D;
   padding: 1.8rem 1.5rem;

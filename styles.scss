@@ -69,6 +69,16 @@ h1 {
     letter-spacing: 0.15rem;
 }
 
+a {
+    color: white;
+    transition: all .3s ease;
+}
+
+a:hover {
+    color: rgb(122, 121, 121);
+    transition: all .3s ease;
+}
+
 .accordion-button {
     color: $secondary;
     padding: 1.8rem 1.5rem;
