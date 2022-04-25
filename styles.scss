@@ -9,6 +9,10 @@ $terciary: #3C3C3B;
     color: $secondary;
 }
 
+.color-azul {
+    color: $primary;
+}
+
 .bg-gray {
     background-color: $terciary;
 }
@@ -70,7 +74,7 @@ h1 {
 }
 
 a {
-    color: white;
+    // color: white;
     transition: all .3s ease;
 }
 
