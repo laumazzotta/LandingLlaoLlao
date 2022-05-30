@@ -83,10 +83,15 @@ a:hover {
     transition: all .3s ease;
 }
 
-.accordion-button {
+.accordion-button,
+.accordion-button-end {
     color: $secondary;
     padding: 1.8rem 1.5rem;
     font-size: 1.5rem;
+}
+
+.accordion-button-end {
+    cursor: default !important;
 }
 
 button {
@@ -94,19 +99,39 @@ button {
     box-shadow: none;
 }
 
+.btn-primary,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:visited {
+    background-color: #86704D;
+    color: white;
+    border-color: #86704D !important;
+    box-shadow: none;
+    transition: all .3s ease;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    color: #86704D;
+    border-color: #86704D;
+    transition: all .3s ease;
+}
+
 .accordion-button::after, 
 .accordion-button:not(.collapsed)::after {
     background-image: url(assets/flecha_gold.svg);
 }
 
-.accordion-button:not(.collapsed) {
+.accordion-button:not(.collapsed) 
+.accordion-button-end:not(.collapsed) {
     color: $secondary;
     background-color: white;
     box-shadow: none;
 
 }
 
-.accordion-button:focus {
+.accordion-button:focus
+.accordion-button-end:focus {
     box-shadow: none;
 }
 
