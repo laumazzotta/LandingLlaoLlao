@@ -112,7 +112,7 @@ button {
   background-image: url(assets/flecha_gold.svg);
 }
 
-.accordion-button:not(.collapsed)
+.accordion-button:not(.collapsed),
 .accordion-button-end:not(.collapsed) {
   color: #86704D;
   background-color: white;
@@ -120,7 +120,7 @@ button {
           box-shadow: none;
 }
 
-.accordion-button:focus
+.accordion-button:focus,
 .accordion-button-end:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
