@@ -178,19 +178,19 @@ li::marker {
 
 @-webkit-keyframes texto {
   from {
-    margin-left: 100%;
+    left: 100%;
   }
   to {
-    margin-left: -100%;
+    left: -100%;
   }
 }
 
 @keyframes texto {
   from {
-    margin-left: 100%;
+    left: 100%;
   }
   to {
-    margin-left: -100%;
+    left: -100%;
   }
 }
 
@@ -214,6 +214,10 @@ li::marker {
   }
   .iconos {
     width: 40px;
+  }
+  .animacion {
+    -webkit-animation-duration: 10s;
+            animation-duration: 10s;
   }
 }
 /*# sourceMappingURL=styles.css.map */

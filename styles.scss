@@ -181,11 +181,11 @@ button {
 
 @keyframes texto {
     from {
-        margin-left: 100%;
+        left: 100%;
     }
 
     to {
-        margin-left: -100%;
+        left: -100%;
     }
     
 }
@@ -215,6 +215,11 @@ button {
 
     .iconos {
         width: 40px;
+    }
+
+    .animacion{
+        animation-duration: 10s;
+        
     }
 
 }
