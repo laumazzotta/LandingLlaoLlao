@@ -161,6 +161,39 @@ li::marker {
   letter-spacing: 0.05rem;
 }
 
+.animacion {
+  -webkit-animation-name: texto;
+          animation-name: texto;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
+}
+
+@-webkit-keyframes texto {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: -100%;
+  }
+}
+
+@keyframes texto {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: -100%;
+  }
+}
+
 @media screen and (max-width: 991px) {
   body {
     background: #d6d6d6;
