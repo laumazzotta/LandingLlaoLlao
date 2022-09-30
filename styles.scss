@@ -171,24 +171,25 @@ button {
 }
 
 .animacion{
+    display: inline-block;
+    padding-left: 30rem;
     animation-name: texto;
     animation-duration: 20s;
     animation-iteration-count: infinite;
-    animation-direction: normal;
     animation-timing-function: linear;
-    animation-delay: 0;
 }
 
 @keyframes texto {
-    from {
-        left: 100%;
+    0% {
+        transform: translateX(0%);
     }
 
-    to {
-        left: -100%;
+    100% {
+        transform: translateX(-100%);
     }
     
 }
+
 
 @media screen and (max-width: 991px) {
     
@@ -218,7 +219,8 @@ button {
     }
 
     .animacion{
-        animation-duration: 10s;
+        padding-left: 5rem;
+        animation-duration: 20s;
         
     }
 

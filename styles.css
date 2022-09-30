@@ -162,35 +162,37 @@ li::marker {
 }
 
 .animacion {
+  display: inline-block;
+  padding-left: 30rem;
   -webkit-animation-name: texto;
           animation-name: texto;
   -webkit-animation-duration: 20s;
           animation-duration: 20s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-  -webkit-animation-direction: normal;
-          animation-direction: normal;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
-  -webkit-animation-delay: 0;
-          animation-delay: 0;
 }
 
 @-webkit-keyframes texto {
-  from {
-    left: 100%;
+  0% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
   }
-  to {
-    left: -100%;
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
   }
 }
 
 @keyframes texto {
-  from {
-    left: 100%;
+  0% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
   }
-  to {
-    left: -100%;
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
   }
 }
 
@@ -216,8 +218,9 @@ li::marker {
     width: 40px;
   }
   .animacion {
-    -webkit-animation-duration: 10s;
-            animation-duration: 10s;
+    padding-left: 5rem;
+    -webkit-animation-duration: 20s;
+            animation-duration: 20s;
   }
 }
 /*# sourceMappingURL=styles.css.map */
